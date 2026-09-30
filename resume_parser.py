@@ -14,6 +14,7 @@ if not my_api_key:
 client = Groq(api_key=my_api_key)
 model = 'openai/gpt-oss-20b'
 
+# this is a dummy job description, simply rerplace the job description in the triple-quotes with any job description from the internet
 job_description = """Do you want to solve real customer problems through innovative technology? Do you enjoy working on scalable services in a collaborative team environment? Do you want to see your code directly impact millions of customers worldwide?
 
 At Amazon, we hire the best minds in technology to innovate and build on behalf of our customers. Customer obsession is part of our company DNA, which has made us one of the world's most beloved brands.
